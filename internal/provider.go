@@ -11,8 +11,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/provider/schema"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/miriambudayr/go-pet-project-90"
-	"github.com/miriambudayr/go-pet-project-90/option"
+	"github.com/miriambudayr/pet-project-90-go"
+	"github.com/miriambudayr/pet-project-90-go/option"
 )
 
 var _ provider.ProviderWithConfigValidators = (*PetProject90Provider)(nil)
