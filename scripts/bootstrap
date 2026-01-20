@@ -21,8 +21,8 @@ fi
 
 echo "==> Installing Go dependencies…"
 # Set GOPRIVATE if the repository appears to be private
-REPO_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://github.com/miriambudayr/go-pet-project-90)
+REPO_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://github.com/miriambudayr/pet-project-90-go)
 if [ "$REPO_STATUS" = "404" ]; then
-  export GOPRIVATE=github.com/miriambudayr/go-pet-project-90
+  export GOPRIVATE=github.com/miriambudayr/pet-project-90-go
 fi
 go mod tidy -e || true

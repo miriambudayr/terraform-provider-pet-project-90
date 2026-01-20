@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/miriambudayr/go-pet-project-90/option"
+	"github.com/miriambudayr/pet-project-90-go/option"
 
 	"github.com/hashicorp/terraform-plugin-log/tflog"
 )
