@@ -1,7 +1,7 @@
 # Pet Project 90 Terraform Provider
 
 The [Pet Project 90 Terraform provider](https://registry.terraform.io/providers/miriambudayr/pet-project-90/latest/docs) provides convenient access to
-the [Pet Project 90 REST API](https://swagger.iooooooo) from Terraform.
+the [Pet Project 90 REST API](https://swagger.ioooooooooooo) from Terraform.
 
 It is generated with [Stainless](https://www.stainless.com/).
 
@@ -22,7 +22,7 @@ terraform {
   required_providers {
     pet-project-90 = {
       source  = "miriambudayr/pet-project-90"
-      version = "~> 0.0.1"
+      version = "~> 0.1.0"
     }
   }
 }
