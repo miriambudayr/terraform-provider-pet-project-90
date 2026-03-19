@@ -22,7 +22,7 @@ terraform {
   required_providers {
     pet-project-90 = {
       source  = "miriambudayr/pet-project-90"
-      version = "~> 0.0.1"
+      version = "~> 0.1.0"
     }
   }
 }
